@@ -1,0 +1,47 @@
+---
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+---
+```{r}
+#install.packages("gdata")
+#library(gdata)
+```
+```{r}
+#install.packages("xlsx")
+#library(xlsx)
+```
+
+Import the data set by read_csv
+```{r}
+#Universities <- read_csv("C:/Users/Admin/Desktop/Datasets_ExcelR/Datasets_BA_2/Universities.csv")
+#Universities
+```
+```{r}
+#Universities<- Universities[1:25,c(2:7)]
+#Universities
+```
+```{r}
+#summary(Universities)
+```
+```{r}
+#pcaobj<- princomp(Universities,cor = TRUE,scores =TRUE,covmat = NULL )
+#pcaobj
+```
+```{r}
+#summary(pcaobj)
+```
+```{r}
+#loadings(pcaobj)
+```
+```{r}
+#plot(pcaobj)
+```
+```{r}
+#biplot(pcaobj)
+```
+```{r}
+#pcaobj$scores
+```
+
